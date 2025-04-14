@@ -16,8 +16,10 @@ clientesNomes.push('Felipe')
 clientesNomes.push('Enzo')
 console.dir(clientesNomes)
 
-document.getElementById("conteudo").innerHTML = clientesNomes[0] + " - "
-document.getElementById("conteudo").innerHTML += clientesNomes[1] + " - "
-document.getElementById("conteudo").innerHTML += clientesNomes[2] + " - "
-document.getElementById("conteudo").innerHTML += clientesNomes[3] + " - "
-document.getElementById("conteudo").innerHTML += clientesNomes[4]
+document.getElementById("conteudo").innerHTML = "<ul>"
+document.getElementById("conteudo").innerHTML += "<li>" + clientesNomes[0] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + clientesNomes[1] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + clientesNomes[2] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + clientesNomes[3] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + clientesNomes[4] + "</li>"
+document.getElementById("conteudo").innerHTML += "</ul>"
